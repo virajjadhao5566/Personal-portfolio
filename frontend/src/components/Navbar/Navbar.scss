@@ -25,7 +25,8 @@
     .img {
         width: 90px;
         height: 20px;
-
+        font-family: cursive;
+        color: rgba(102,112,185,1);
         @media screen and (min-width: 2000px) {
             width: 180px;
             height: 40px;
@@ -57,7 +58,8 @@
         }
 
         a {
-            color: var(--gray-color);
+            color: rgba(102,112,185,1);
+            font-family: cursive;
             text-decoration: none;
             flex-direction: column;
 
